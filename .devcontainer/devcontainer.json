@@ -11,5 +11,6 @@
 			"label": "VNC",
 			"onAutoForward": "openBrowser"
 		}
-	}
+	},
+	"postCreateCommand": ./bin/bash sdk i java 17.0.1.fx-zulu;sdk default java 17.0.1.fx-zulu
 }
