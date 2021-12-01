@@ -5,6 +5,7 @@
 		"desktop-lite": "latest",
 		"java": "lts"
 	},
+	"build": { "dockerfile": "Dockerfile" },
 	"forwardPorts": [6080],
 	"portsAttributes": {
 		"6080": {
