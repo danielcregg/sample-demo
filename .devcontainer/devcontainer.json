@@ -1,6 +1,5 @@
 {
 	"name": "Java",
-	"image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
 	"features": {
 		"desktop-lite": "latest",
 		"java": "lts"
