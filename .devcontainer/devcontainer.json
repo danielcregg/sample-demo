@@ -1,9 +1,13 @@
 {
 	"name": "Java",
-	"build": { "dockerfile": "Dockerfile" },
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 	"features": {
-		"desktop-lite": "latest",
-		"java": "lts"
+		"ghcr.io/devcontainers/features/desktop-lite:1": {},
+		"ghcr.io/devcontainers/features/java:1": {
+			"version": "17",
+			"installGradle": false,
+			"installMaven": false
+		}
 	},
 	"forwardPorts": [6080],
 	"portsAttributes": {
